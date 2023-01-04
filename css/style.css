@@ -3,6 +3,49 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 0;
+  height: 64px;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 18px 36px;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #fd6e0a;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  height: 64px;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 18px 36px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+}
+
+header {
+  background: #fff8f3;
+  background-image: url('../images/header_bg.png'),
+    url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+}
+
 header > nav .logo {
   font-weight: 800;
   font-size: 45px;
@@ -22,9 +65,84 @@ header > nav {
 
 header > nav ul {
   display: flex;
+  align-items: center;
 }
 
 header > nav ul li {
   list-style: none;
   margin-left: 50px;
+}
+
+/* banner-styles */
+.banner {
+  margin: 0px 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-welcome {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  margin-bottom: 5px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.banner-message {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about style */
+.about {
+  margin-top: 130px;
+  padding: 155px 130px;
+  background-color: #fff8f3;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+}
+.section-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.personal-desc {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.info-desc {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #474747;
 }
