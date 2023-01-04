@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header > nav .logo {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  color: #181818;
+}
+
+header > nav h3 span {
+  color: #fd6e0a;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+header > nav ul {
+  display: flex;
+}
+
+header > nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
