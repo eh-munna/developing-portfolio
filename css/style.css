@@ -34,6 +34,12 @@
 .mb-30 {
   margin-bottom: 30px;
 }
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
 .text-center {
   text-align: center;
 }
@@ -195,7 +201,54 @@ main {
   color: #757575;
 }
 
+/* resume */
 .resume {
   margin-top: 130px;
   background: #fff;
+}
+
+.events {
+  display: flex;
+  gap: 24px;
+  margin: 110px 0 50px;
+}
+/* .education {
+} */
+.edu-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #474747;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.degree {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Dark 02 */
+
+  color: #474747;
+}
+.school {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #757575;
+}
+.activity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #757575;
+}
+
+.bt-border {
+  border-bottom: 1px solid #d1d1d1;
 }
